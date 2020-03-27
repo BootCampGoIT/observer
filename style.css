@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+
+.wrapper {
+    width: 60%;
+    margin-left: 20%;
+    text-align: justify;
+
+}
+
+.observer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 100px;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+}
+
+.observer a {
+    color: white;
+    text-decoration: none;
+}
